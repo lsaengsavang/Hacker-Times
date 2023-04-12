@@ -1,45 +1,40 @@
-main {
-  font-family: "Source Sans Pro";
-  background-color: #eee;
-}
-
-h2 {
-  font-family: "Roboto Slab";
-}
-
-nav {
-  border: 1px solid #eee;
-}
-
-ul li {
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav a {
-  color: #777;
-  text-decoration: none;
-}
-
 .newspaper-container {
   width: 700px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 2px #ddd;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #ddd;
   padding: 10px 20px;
-  background-color: white;
+  background-color: #eee;
   margin: 40px auto;
 }
 
+body {
+   font-family: "Source Sans Pro";
+  background-color: white; 
+}
+
 h1 {
-  text-align: center;
-  color: black;
   font-family: "Abril Fatface";
+  color: black;
+  text-align: center;
 }
 
 h2, h4 {
+  font-family: "Roboto Slab";
   color: black;
 }
 
-div section {
+nav li {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 0;
   display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+  padding: 3px;
+  color: #777
 }
