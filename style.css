@@ -3,13 +3,14 @@
   border-radius: 15px;
   box-shadow: 3px 3px 3px #ddd;
   padding: 10px 20px;
-  background-color: #eee;
+  background-color: white;
   margin: 40px auto;
 }
 
 body {
   font-family: "Source Sans Pro";
-  background-color: white; 
+
+  background-color: #eee;
 }
 
 h1 {
@@ -43,7 +44,7 @@ a {
   color: #777
 }
 
-.article-1, .article-2 {
+section {
   display: inline-block;
   width: 46%;
   text-align: left;
