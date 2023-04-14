@@ -9,8 +9,8 @@
 
 body {
   font-family: "Source Sans Pro";
-
   background-color: #eee;
+  padding-bottom: 400px;
 }
 
 h1 {
@@ -38,6 +38,10 @@ li {
 
 }
 
+img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   padding: 0.2em;
@@ -51,6 +55,9 @@ section {
   padding: 12px;
 }
 
- img {
-  width: 100%;
+ nav {
+  position: sticky;
+  top: 10px;
+  background-color: white;
+  height: 30px;
  }
